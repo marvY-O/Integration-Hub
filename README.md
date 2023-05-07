@@ -31,6 +31,7 @@ The Django application will transform the request to the format of the endpoint 
 
 The mappings between the input parameters and the endpoint parameters are stored in a database. You can modify the mappings by updating the database entries. If you want to register a new bank to the endpoint use the `addBank` API by providing it all the schemas and actions as given below.
 
+```
 {
    "create":{
       "username":"TEST",
@@ -53,5 +54,6 @@ The mappings between the input parameters and the endpoint parameters are stored
       "amount":"TEST"
    }
 }
+```
 
 
